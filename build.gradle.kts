@@ -19,5 +19,5 @@ tasks.test {
 }
 
 application {
-    mainClass.set("org.example.Main")
+    mainClass.set(System.getenv("MAIN_CLASS"))
 }
